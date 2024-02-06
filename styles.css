@@ -37,6 +37,13 @@
 .imageAboutPage {
   width: 80%;
   height: 80%;
+  
+}
+.hoverimg{
+  transition: transform 0.3s ease;
+}
+.hoverimg:hover{
+  transform: scale(1.1);
 }
 
 /* project section css */
@@ -55,10 +62,10 @@
   font-weight: bolder;
 }
 .card:hover .servicesIcon {
-  color: #008000;
+  color: #D9AC84;
 }
 .servicesText:hover {
-  border: 1px solid #008000;
+  border: 1px solid #D9AC84;
 }
 
 .pro-img {
@@ -77,7 +84,12 @@
     text-align: center;
     font-family: "Merriweather Sans", sans-serif;
 }
-
+.card{
+  transition: transform 0.3s ease;
+}
+.card:hover{
+  transform: scale(1.05);
+}
 /* Hobbies */
 .skill-row {
   width: 70%;
