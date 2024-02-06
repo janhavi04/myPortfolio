@@ -164,3 +164,35 @@ h3 {
   padding-top: 20px;
 }
 
+
+@media (max-width: 412px) {
+  .imageAboutPage {
+    width: 100%;
+    height: 80%;
+}
+}
+
+@media (max-width: 768px) {
+  .imageAboutPage {
+    width: 100%;
+    height: 80%;
+
+  
+}
+
+.para{
+  width: 100%;
+  height: 100%;
+  float: left;
+  text-align: justify;
+}
+
+.photoimg{
+ 
+  margin: 100px top 100px auto;
+  float: left;
+  padding-right: 30px;
+  padding-left: 0;
+
+}
+}
