@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mondrian Art</title>
+    <style>
+body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      width: 858px;
+      height: 850px;
+      display: grid;
+      background-color: #000;
+      grid-template-columns: 360px 234px 126px 111px;
+      grid-template-rows: 111px 233px 112px 115px 242px;
+      gap: 9px;
+    }
+
+    .item {
+      background-color: #F0F1EC;
+    }
+
+    .white1 {
+      grid-row-start: span 2;
+      border-top:9px solid black; ;
+      border-left:9px solid black; ;
+    }
+
+    .white2 {
+     grid-area: 1/2/2/4;
+     border-top:9px solid black; ;
+      
+    }
+
+    .white3 {
+      grid-area:1/4/2/5;
+      border-top:9px solid black; 
+      border-right:9px solid black; ;
+     
+      
+ 
+    }
+
+    
+    .white4 {
+      grid-area: 3/1/5/2;
+      border-left:9px solid black; 
+    }
+    .white5 {
+      grid-area:2/2/4/4;
+    }
+
+    
+
+    .white7 {
+      grid-area: 5/1/6/2;
+      border-left:9px solid black; ;
+      border-bottom: 9px solid black;
+    }
+
+    .white6{
+      border-right:9px solid black; ;
+    }
+    .white8 {
+      grid-area:4/2/6/3;
+      
+      border-bottom: 9px solid black;
+    }
+
+    .white9{
+      grid-area:3/4/4/5;
+      border-right:9px solid black; ;
+    }
+
+   .red{
+    grid-area: 4/3/6/5;
+    background-color: red;
+    border-right:9px solid black; ;
+    border-bottom: 9px solid black;
+   }
+    </style>
+</head>
+<body>
+    <div class="container">
+   
+    <div class="item white1"></div>
+    <div class="item white2"></div>
+    <div class="item white3"></div>
+
+    <div class="item white4"></div>
+    <div class="item white5"></div>
+
+  
+    <div class="item white6"></div>
+    <div class="item white7"></div>
+    <div class="item white8"></div>
+    <div class="item white9"></div>
+    <div class="item red"></div>
+
+  </div>
+</body>
+</html>
