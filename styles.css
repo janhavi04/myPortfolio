@@ -39,7 +39,7 @@
   height: 80%;
 }
 
-/* services section css */
+/* project section css */
 .servicesText.card {
   height: 280px;
   cursor: pointer;
@@ -51,6 +51,8 @@
 }
 .card-title {
   text-align: center;
+  color: #76453B;
+  font-weight: bolder;
 }
 .card:hover .servicesIcon {
   color: #008000;
@@ -71,7 +73,10 @@
 .row {
   padding-top: 10px;
 }
-/* footer styling */
+.card-text{
+    text-align: center;
+    font-family: "Merriweather Sans", sans-serif;
+}
 
 /* Hobbies */
 .skill-row {
